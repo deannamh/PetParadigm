@@ -1,0 +1,52 @@
+
+/* Primary colors: */
+/* Midnight Blue - #003B6D */
+/* Blue Sky- #6699CC */
+
+/* Secondary colors: */
+/* Dim gray - #676767 */
+/* Silver- #BDBDBD */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+	background-color:#003B6D !important;
+}
+		
+header {
+	background-color: white;
+	width: 100%;
+	height: 200px; 
+	background-image: url('../images/bannerPic.PNG');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+}
+
+.bg-body-tertiary {
+	background-color:#6699CC !important;
+}
+
+.btn-outline-success {
+	background-color: #6699CC;
+	color: #003B6D;
+	border-color: #003B6D;
+	border-width: 2px;
+	padding: 3px 10px;
+	font-weight: bold;
+}
+
+.btn-outline-success:hover {
+	background-color: #BDBDBD;
+	color: #003B6D;
+	border-color: #003B6D;
+	border-width: 2px;
+	padding: 3px 10px;
+	font-weight: bold;
+}
+
+
