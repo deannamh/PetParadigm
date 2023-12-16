@@ -83,7 +83,7 @@ header {
 	height:480px;
 }
 
-h1, h5 {
+h1, h2, h3, h4, h5 {
 	font-weight: bold;
 }
 
@@ -106,6 +106,27 @@ h1, h5 {
 	color: #BDBDBD;
 }
 
+
+.centerUL {
+	display: inline-block;
+	text-align: left;
+}
+
+
+.imgHalfSize {
+	width: 240px;
+	height: auto;
+}
+
+.paddingTopSides{
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.card-footer {
+	background-color: #676767;
+}
 @media screen and (max-width: 768px) {
 	.contentL, #carouselExampleControls, .contentMid {
 		padding: 20px;
