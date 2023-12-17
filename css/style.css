@@ -31,7 +31,7 @@ header {
 	background-color:#6699CC !important;
 }
 
-.btn-outline-success {
+.btn {
 	background-color: #6699CC;
 	color: #003B6D;
 	border-color: #003B6D;
@@ -40,7 +40,7 @@ header {
 	font-weight: bold;
 }
 
-.btn-outline-success:hover {
+.btn:hover {
 	background-color: #BDBDBD;
 	color: #003B6D;
 	border-color: #003B6D;
@@ -108,8 +108,8 @@ h1, h2, h3, h4, h5 {
 
 
 .centerUL {
-	display: inline-block;
-	text-align: left;
+	display: table;
+	margin: 0 auto;
 }
 
 
@@ -126,6 +126,11 @@ h1, h2, h3, h4, h5 {
 
 .card-footer {
 	background-color: #676767;
+}
+
+.bg-dark {
+	background-color: #6699CC !important;
+	color: black !important;
 }
 @media screen and (max-width: 768px) {
 	.contentL, #carouselExampleControls, .contentMid {

@@ -10,6 +10,7 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a86534be32.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -51,5 +52,149 @@
     </div>
 </nav>
 
+<!-- FORM -->
+<div class="contentMid">
+    <h3>Please enter your information below, and we will contact you within the next 24 - 48 hours!</h3>
+    <form>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First name">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last name">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <label for="validationDefault03">Phone Number</label>
+                <input type="text" class="form-control" id="validationDefault03" placeholder="555-555-5555" required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationDefault04">Email</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="user@email.com" required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="inputTimeZone">Time Zone</label>
+                <select id="inputTimeZone" class="form-control">
+                    <option selected>...</option>
+                    <option>EST</option>
+                    <option>CST</option>
+                    <option>MST</option>
+                    <option>PST</option>
+                </select>
+            </div>
+        </div>
+
+        <hr>
+        <h4>Please enter your pet's information below:</h4>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <label for="petName">Pet's Name</label>
+                <input type="text" class="form-control" id="petName" placeholder="Your pet's name">
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="petType">Pet Type</label>
+                <select id="petType" class="form-control">
+                    <option selected>...</option>
+                    <option>Cat</option>
+                    <option>Dog</option>
+                    <option>Bird</option>
+                </select>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="petAge">Pet's Age</label>
+                <input type="text" class="form-control" id="petAge" placeholder="Pet's age">
+            </div>
+        </div>
+
+        <div class="col mb-3">
+            <label for="textArea">What would you like to discuss?</label>
+            <textarea class="form-control" id="textArea" rows="5"></textarea>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+</div>
+
+
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn"  href="#" role="button"><i class="fa-brands fa-facebook"></i></a>
+
+            <!-- Google -->
+            <a class="btn" href="#" role="button"><i class="fa-brands fa-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn" href="#" role="button"><i class="fa-brands fa-instagram"></i></a>
+
+
+        </section>
+        <!-- Section: Social media -->
+        <hr>
+        <section class="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-auto">
+                    <!-- Submit button -->
+                    <a class="text-black" href="contact.html">Contact Us</a>
+                </div>
+            </div>
+            <!--Grid row-->
+        </section>
+        <hr>
+        <!-- Section: Links -->
+        <section class="">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col">
+                    <a class="text-black" href="index.html">Home</a>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col">
+                    <a class="text-black" href="dogs.html">Dogs</a>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col">
+                    <a class="text-black"  href="cats.html">Cats</a>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col">
+                    <a class="text-black"  href="birds.html">Birds</a>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col">
+                    <a class="text-black" href="faqs.html">FAQs</a>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #2d5986;">
+        © 2023 Copyright:
+        <a href="https://github.com/deannamh">DMH</a>
+    </div>
+    <!-- Copyright -->
+</footer>
 </body>
 </html>
