@@ -1,1 +1,1 @@
-Website for Pet Paradigm Veterinary Clinic
+Website for Pet Paradigm Professionals
